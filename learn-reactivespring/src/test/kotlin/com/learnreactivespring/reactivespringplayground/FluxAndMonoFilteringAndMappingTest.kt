@@ -5,7 +5,7 @@ import reactor.core.publisher.Flux
 import reactor.core.scheduler.Schedulers.parallel
 import reactor.test.StepVerifier
 
-class FluxAndMonoFilteringAndMapping {
+class FluxAndMonoFilteringAndMappingTest {
     object TestConstants {
         val NAMES = listOf("Ivo", "Ola", "Delgado", "Xico")
     }
